@@ -1,0 +1,48 @@
+/*Book Tiles General Style Guide*/
+
+div
+{
+	border: 1px solid green;
+	padding: 1px;
+	margin: 1px;
+	
+}
+
+img
+{
+	/*center all images*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.container
+{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	height: 80%;
+	width: 100%;
+	overflow: auto;
+}
+
+div.tile
+{
+	border: 1px solid blue;
+	float: left;
+	min-width: 30%;
+	max-width: 49%;
+	max-height: 49%;
+	min-height: 49%;
+	overflow: auto;
+	
+}
+
+div.booktitle
+{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
